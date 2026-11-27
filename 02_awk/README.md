@@ -6,4 +6,15 @@
 2. { action } -> run action on all lines
 3. pattern -> default to a print action on all lines that fullfill pattern
 
+## Regex matching
+
+```awk
+
+#match all fields
+awk '/regex_pattern/'
+
+# matches field n
+awk '$n~/regex_pattern/'
+```
+
 
